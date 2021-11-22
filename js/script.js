@@ -32,7 +32,7 @@ function draw() {
 	canvas.width = 500;
 	canvas.height = 500;
 	ctx.beginPath();
-	console.log("canvas (in 500X zoom):");
+	console.log("Canvas (in 500X zoom):");
 	let y = 0;
 	for (let x = 0; x <= 0.2; x+=0.025) {
 		y = Math.sqrt(Math.pow(Math.sin(x), 2)+1/2);
